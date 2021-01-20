@@ -1,0 +1,14 @@
+name: Tutorial
+author: ItzFabb
+version: 1
+api: ["3", "4"]
+main: ItzFabb\Main
+
+commands:
+  tutorial:
+    description: server tutorials...
+    permission: tutorial.command
+    
+permission:
+  tutorial.command:
+    description: allows player to use /tutorial
